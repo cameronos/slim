@@ -10,7 +10,7 @@ Zooming and panning are quick, backbuffered to avoid stutter, and flicker-free.
 </p>
 
 ## Screenshots
-<img width=60% src="https://raw.githubusercontent.com/cameronos/slim/main/slim_screenshot.png">
+<img width=60% src="https://raw.githubusercontent.com/cameronos/slim/main/slim_sc.png">
 
 ## Features
 - Minimal X11 image viewer
