@@ -34,6 +34,8 @@ gcc -O2 -o slim slim.c $(pkg-config --cflags --libs imlib2 x11)
 sudo mv slim /usr/local/bin/
 ```
 
+For other distros, find out how to get libX11 and libimlib2 installed, then just compile slim.c into an executable and run it.
+
 ## Usage
 To run SLIM:
 
