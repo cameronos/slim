@@ -19,8 +19,24 @@ Zooming and panning are quick, backbuffered to avoid stutter, and flicker-free.
 - Reset view with `R` key
 - Image resizing when window is smaller
 
+## Building
+### Fedora
+```bash
+sudo dnf install libX11-devel imlib2-devel
+gcc -O2 -o slim slim.c $(pkg-config --cflags --libs imlib2 x11)
+sudo mv slim /usr/local/bin/
+```
+
+### Debian-based
+```bash
+sudo apt install libx11-dev libimlib2-dev
+gcc -O2 -o slim slim.c $(pkg-config --cflags --libs imlib2 x11)
+sudo mv slim /usr/local/bin/
+```
+
 ## Usage
 To run SLIM:
 
 ```bash
 slim <image-path>
+```
