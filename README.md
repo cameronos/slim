@@ -33,6 +33,7 @@ sudo apt install libx11-dev libimlib2-dev
 gcc -O2 -o slim slim.c $(pkg-config --cflags --libs imlib2 x11)
 sudo mv slim /usr/local/bin/
 ```
+You can also run the ./install_debian.sh if you cloned this repository if you want a seamless install.
 
 For other distros, find out how to get libX11 and libimlib2 installed, then just compile slim.c into an executable and run it.
 
